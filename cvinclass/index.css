@@ -47,7 +47,7 @@ body {
 h2 {
   padding-top: 9%;
   font-size: 3em;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
 
 #redirect1 {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(181, 214, 243);
 }
 
 p {
