@@ -8,12 +8,11 @@ body {
 }
 
 /* .navigation { */
-/* margin-right: 60%; */
+/* margin: 0 50%; */
 /* } */
 
 .nav-list {
   position: relative;
-  /* display: inline-block; */
 }
 
 a {
@@ -41,9 +40,15 @@ li:hover {
   position: absolute;
   display: none;
   top: 100%;
+  left: 1%;
 }
 
 .nav-list:hover .sub-nav-list {
   display: block;
   width: 100%;
+}
+
+.sub-nav-list-block {
+  width: 100%;
+  text-align: center;
 }
