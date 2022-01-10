@@ -7,6 +7,9 @@ body {
   font-family: sans-serif;
 }
 
+nav {
+  text-align: center;
+}
 
 .nav-list{
   position: relative;
@@ -54,18 +57,18 @@ li:hover {
   text-align: center;
 }
 
+#woman-list:hover .sub-woman-list {
+  display: inline-block;
+}
+/* Меню идущее после наведения на блок woman */
+
+.sub-nav-list-block:last-of-type {
+  position: relative;
+}
+
 .sub-woman-list {
   display: none;
   position: absolute;
   left: 99%;
   top: 33%;
 }
-/* Позиция блока шла от .nav-list */
-
-
-#woman-list:hover .sub-woman-list {
-  display: inline-block;
-}
-/* Меню идущее после наведения на блок woman */
-
-
