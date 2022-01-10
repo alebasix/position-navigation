@@ -7,12 +7,13 @@ body {
   font-family: sans-serif;
 }
 
-/* .navigation { */
-/* margin: 0 50%; */
-/* } */
 
-.nav-list {
+.nav-list{
   position: relative;
+}
+
+article {
+  margin-top: 3%;
 }
 
 a {
@@ -48,7 +49,23 @@ li:hover {
   width: 100%;
 }
 
-.sub-nav-list-block {
-  width: 100%;
+.sub-nav-list-block{
+  width: 101%;
   text-align: center;
 }
+
+.sub-woman-list {
+  display: none;
+  position: absolute;
+  left: 99%;
+  top: 33%;
+}
+/* Позиция блока шла от .nav-list */
+
+
+#woman-list:hover .sub-woman-list {
+  display: inline-block;
+}
+/* Меню идущее после наведения на блок woman */
+
+
