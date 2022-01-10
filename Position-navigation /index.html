@@ -11,18 +11,24 @@
   <body>
     <main class="wrapper">
       <nav class="navigation">
-        <ul class="nav-list">
-        <li class="nav-list"><a href="#">Home</a></li>
-        <li class="nav-list"><a href="#">Categories</a>
-        <ul class="sub-nav-list">
-        <li class="sub-nav-list-block"><a href="#">Man</a></li>
-        <li class="sub-nav-list-block"><a href="#">Woman</a></li>
-        <li class="sub-nav-list-block"><a href="#">Kids</a></li>
-      </ul>
-    </li>
-    <li class="nav-list"><a href="#">About</a></li>
-    <li class="nav-list"><a href="#">Contacts</a></li>
-  </ul>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="nav-list">
+            <a href="#">Categories</a>
+            <ul class="sub-nav-list">
+              <li class="sub-nav-list-block"><a href="#">Man</a></li>
+              <li class="sub-nav-list-block" class="woman-list"><a href="#">Woman</a></li>
+              <ul class="sub-woman-list">
+                <li>Dress</li>
+                <li>Pants</li>
+                <li>Shoes</li>
+              </ul>
+              <li class="sub-nav-list-block"><a href="#">Kids</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
       </nav>
     </main>
   </body>
