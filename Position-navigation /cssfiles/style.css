@@ -43,8 +43,8 @@ li:hover {
 .sub-nav-list {
   position: absolute;
   display: none;
-  top: 100%;
-  left: 1%;
+  top: 99%;
+  left: 0%;
 }
 
 .nav-list:hover .sub-nav-list {
