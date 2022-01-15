@@ -43,7 +43,7 @@ li:hover {
 .sub-nav-list {
   position: absolute;
   display: none;
-  top: 99%;
+  top: 103%;
   left: 0%;
 }
 
@@ -58,17 +58,18 @@ li:hover {
 }
 
 #woman-list:hover .sub-woman-list {
-  display: inline-block;
+  display: block;
 }
 /* Меню идущее после наведения на блок woman */
 
 .sub-nav-list-block:last-of-type {
   position: relative;
 }
+/* Родитель для от которого идет позиция для сабвуманлиста */
 
 .sub-woman-list {
   display: none;
   position: absolute;
-  left: 99%;
+  left: 101.5%;
   top: 33%;
 }
